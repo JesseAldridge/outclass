@@ -1,0 +1,102 @@
+$ python already_passing_tests.py
+url enqueued: https://www.threechomp.com
+spawning a crawler to look at https://www.threechomp.com
+crawling with GET request: https://www.threechomp.com
+url enqueued: https://d12zodkr4t8o3m.cloudfront.net/assets/front-a55b548b688d95b637d7ffd7561f6ee1f2d344e30c43d990025c8e443536d9c0.js
+spawning a crawler to look at https://d12zodkr4t8o3m.cloudfront.net/assets/front-a55b548b688d95b637d7ffd7561f6ee1f2d344e30c43d990025c8e443536d9c0.js
+crawling with HEAD request: https://d12zodkr4t8o3m.cloudfront.net/assets/front-a55b548b688d95b637d7ffd7561f6ee1f2d344e30c43d990025c8e443536d9c0.js
+ url enqueued: http://d12zodkr4t8o3m.cloudfront.net/nfavicon.ico
+spawning a crawler to look at http://d12zodkr4t8o3m.cloudfront.net/nfavicon.ico
+crawling with HEAD request: http://d12zodkr4t8o3m.cloudfront.net/nfavicon.ico
+url enqueued: http://d12zodkr4t8o3m.cloudfront.net/nfavicon32.png
+spawning a crawler to look at http://d12zodkr4t8o3m.cloudfront.net/nfavicon32.png
+crawling with HEAD request: http://d12zodkr4t8o3m.cloudfront.net/nfavicon32.png
+url enqueued: https://d12zodkr4t8o3m.cloudfront.net/assets/front-96d992566a7b67838d40db9f7136e502d9db0adbdd2ddadfae48f0682d57b032.css
+spawning a crawler to look at https://d12zodkr4t8o3m.cloudfront.net/assets/front-96d992566a7b67838d40db9f7136e502d9db0adbdd2ddadfae48f0682d57b032.css
+crawling with HEAD request: https://d12zodkr4t8o3m.cloudfront.net/assets/front-96d992566a7b67838d40db9f7136e502d9db0adbdd2ddadfae48f0682d57b032.css
+ url enqueued: https://threechomp.com/
+spawning a crawler to look at https://threechomp.com/
+crawling with HEAD request: https://threechomp.com/
+url enqueued: https://threechomp.com/company
+spawning a crawler to look at https://threechomp.com/company
+url enqueued: https://threechomp.com/users/sign_up
+spawning a crawler to look at https://threechomp.com/users/sign_up
+crawling with HEAD request: https://threechomp.com/company
+crawling with HEAD request: https://threechomp.com/users/sign_up
+url enqueued: https://threechomp.com/users/sign_in
+spawning a crawler to look at https://threechomp.com/users/sign_in
+url enqueued: https://threechomp.com/about
+spawning a crawler to look at https://threechomp.com/about
+crawling with HEAD request: https://threechomp.com/users/sign_in
+ crawling with HEAD request: https://threechomp.com/abouturl enqueued: https://threechomp.com/manifesto
+
+spawning a crawler to look at https://threechomp.com/manifesto
+crawling with HEAD request: https://threechomp.com/manifesto
+url enqueued: https://threechomp.com/diversity
+spawning a crawler to look at https://threechomp.com/diversity
+url enqueued: https://threechomp.com/press
+spawning a crawler to look at https://threechomp.com/presscrawling with HEAD request: https://threechomp.com/diversity
+
+crawling with HEAD request: https://threechomp.com/press
+url enqueued: https://threechomp.com/faq
+spawning a crawler to look at https://threechomp.com/faq
+crawling with HEAD request: https://threechomp.com/faq
+url enqueued: http://data.threechomp.com
+spawning a crawler to look at http://data.threechomp.com
+crawling with HEAD request: http://data.threechomp.com
+ url enqueued: https://threechomp.com/contact
+spawning a crawler to look at https://threechomp.com/contact
+crawling with HEAD request: https://threechomp.com/contact
+url enqueued: https://threechomp.com/careers
+spawning a crawler to look at https://threechomp.com/careers
+crawling with HEAD request: https://threechomp.com/careers
+url enqueued: https://threechomp.com/privacy
+spawning a crawler to look at https://threechomp.com/privacy
+url enqueued: https://threechomp.com/terms
+spawning a crawler to look at https://threechomp.com/terms
+crawling with HEAD request: https://threechomp.com/privacy
+crawling with HEAD request: https://threechomp.com/terms
+ url enqueued: https://facebook.com/threechomp
+spawning a crawler to look at https://facebook.com/threechomp
+crawling with HEAD request: https://facebook.com/threechomp
+url enqueued: https://twitter.com/three_chomp
+spawning a crawler to look at https://twitter.com/three_chomp
+crawling with HEAD request: https://twitter.com/three_chomp
+ url enqueued: https://mixpanel.com/f/partner
+spawning a crawler to look at https://mixpanel.com/f/partner
+crawling with HEAD request: https://mixpanel.com/f/partner
+url enqueued: https://www.olark.com/site/6572-404-10-6635/contact
+spawning a crawler to look at https://www.olark.com/site/6572-404-10-6635/contact
+crawling with HEAD request: https://www.olark.com/site/6572-404-10-6635/contact
+url enqueued: http://www.olark.com?welcome
+spawning a crawler to look at http://www.olark.com?welcome
+crawling with HEAD request: http://www.olark.com?welcome
+finalize crawl: https://www.threechomp.com
+finalize crawl: http://d12zodkr4t8o3m.cloudfront.net/nfavicon.ico
+finalize crawl: http://d12zodkr4t8o3m.cloudfront.net/nfavicon32.png
+finalize crawl: https://d12zodkr4t8o3m.cloudfront.net/assets/front-96d992566a7b67838d40db9f7136e502d9db0adbdd2ddadfae48f0682d57b032.css
+finalize crawl: https://d12zodkr4t8o3m.cloudfront.net/assets/front-a55b548b688d95b637d7ffd7561f6ee1f2d344e30c43d990025c8e443536d9c0.js
+finalize crawl: https://threechomp.com/manifesto
+finalize crawl: https://threechomp.com/users/sign_in
+finalize crawl: https://threechomp.com/
+finalize crawl: https://threechomp.com/users/sign_up
+finalize crawl: https://threechomp.com/company
+finalize crawl: https://threechomp.com/about
+finalize crawl: http://data.threechomp.com
+finalize crawl: https://threechomp.com/press
+finalize crawl: https://threechomp.com/careers
+finalize crawl: https://threechomp.com/faq
+finalize crawl: https://threechomp.com/privacy
+finalize crawl: https://twitter.com/three_chomp
+finalize crawl: https://threechomp.com/contact
+finalize crawl: https://threechomp.com/terms
+finalize crawl: https://threechomp.com/diversity
+finalize crawl: http://www.olark.com?welcome
+finalize crawl: https://mixpanel.com/f/partner
+finalize crawl: https://www.olark.com/site/6572-404-10-6635/contact
+finalize crawl: https://facebook.com/threechomp
+....
+----------------------------------------------------------------------
+Ran 4 tests in 6.022s
+
+OK
