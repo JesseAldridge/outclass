@@ -1,1 +1,1 @@
-`python termviz.py < test.txt`
+`python outclass.py < test.txt`
