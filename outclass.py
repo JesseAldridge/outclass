@@ -44,7 +44,6 @@ def make_new_color():
 
 
 if __name__ == '__main__':
-  orig_readable_pairs, _ = colors.build_color_table()
   cluster_id_to_color = {}
   while True:
 
@@ -56,5 +55,5 @@ if __name__ == '__main__':
 
       r,g,b = cluster_id_to_color[cluster_id]
       print '\033[38;2;{};{};{}m{}\033[0m'.format(r,g,b, in_line)
-    except EOFError:
+    except EOFError, KeyboardInterrupt:
       break
