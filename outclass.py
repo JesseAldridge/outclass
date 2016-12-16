@@ -33,25 +33,30 @@ def cached_jaro(key_line, other_line, mem={}):
   return mem[key_line, other_line]
 
 
+def make_new_color():
+  brightness = 128 * 3
+  vals = []
+  for _ in range(3):
+    val = random.randrange(min(brightness, 256))
+    vals.append(val)
+    brightness -= val
+  random.shuffle(vals)
+  return vals
+
+
+
 if __name__ == '__main__':
   orig_readable_pairs, _ = colors.build_color_table()
-  readable_pairs = []
-  cluster_id_to_color_pair = {}
+  cluster_id_to_color = {}
   while True:
-    if not readable_pairs:
-      readable_pairs = list(orig_readable_pairs)
-      random.shuffle(readable_pairs)
 
     try:
       in_line = raw_input().decode('utf8')
       cluster_id = tag_line(in_line)
-      if cluster_id not in cluster_id_to_color_pair:
-        cluster_id_to_color_pair[cluster_id] = readable_pairs.pop()
+      if cluster_id not in cluster_id_to_color:
+        cluster_id_to_color[cluster_id] = make_new_color()
 
-      fg, bg = cluster_id_to_color_pair[cluster_id]
-      bg_part = '' if bg is None else '\033[{}m'.format(bg)
-      color_start = '\033[{}m{}'.format(fg, bg_part)
-      color_end = '\033[0m'
-      print '{}{}{}'.format(color_start, in_line, color_end)
+      r,g,b = cluster_id_to_color[cluster_id]
+      print '\033[38;2;{};{};{}m{}\033[0m'.format(r,g,b, in_line)
     except EOFError:
       break
