@@ -3,8 +3,6 @@ import sys, random
 
 import jellyfish
 
-import colors
-
 
 def tag_line(entry, get_line=lambda x: x, similarity=.8):
   full_line = get_line(entry)
